@@ -13,20 +13,20 @@ repositories:
     version: humble_tracepoint_added
   CARET/CARET_trace:
     type: git
-    url: https://github.com/tier4/CARET_trace.git
-    version: main
+    url: git@github.com:tier4/CARET_trace.git
+    version: iron-tracepoint-added
   CARET/CARET_analyze:
     type: git
-    url: https://github.com/tier4/CARET_analyze.git
-    version: main
+    url: git@github.com:ymski/CARET_analyze.git
+    version: iron_tracepoint_added
   CARET/CARET_analyze_cpp_impl:
     type: git
     url: https://github.com/tier4/CARET_analyze_cpp_impl.git
     version: main
   CARET/ros2caret:
     type: git
-    url: https://github.com/tier4/ros2caret.git
-    version: main
+    url: github.com:nabetetsu/ros2caret.git
+    version: iron_test
   # Dependency for CI/CD
   CARET/caret_common:
     type: git
