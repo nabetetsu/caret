@@ -13,20 +13,20 @@ repositories:
     version: humble_tracepoint_added
   CARET/caret_trace:
     type: git
-    url: https://github.com/tier4/caret_trace.git
-    version: main
+    url: https://github.com/ymski/CARET_trace.git
+    version: feat/add_multihost_trace
   CARET/caret_analyze:
     type: git
-    url: https://github.com/tier4/caret_analyze.git
-    version: main
+    url: https://github.com/ymski/CARET_analyze.git
+    version: feat/multihost
   CARET/caret_analyze_cpp_impl:
     type: git
     url: https://github.com/tier4/caret_analyze_cpp_impl.git
     version: main
   CARET/ros2caret:
     type: git
-    url: https://github.com/tier4/ros2caret.git
-    version: main
+    url: https://github.com/ymski/ros2caret.git
+    version: feat/multihost
   # Dependency for CI/CD
   CARET/caret_common:
     type: git
